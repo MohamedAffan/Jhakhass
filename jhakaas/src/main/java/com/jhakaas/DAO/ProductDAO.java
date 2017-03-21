@@ -1,0 +1,13 @@
+package com.jhakaas.DAO;
+
+import org.springframework.stereotype.Service;
+
+import com.jhakaas.model.Product;
+
+@Service
+public interface ProductDAO
+{
+	public boolean insert_Product(Product d);
+	
+	public String viewProduct();
+}

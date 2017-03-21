@@ -1,0 +1,101 @@
+
+Feb 08, 2017 15:28:02.72 NEW SESSION
+Feb 08, 2017 15:28:02.72 [9916:9920:0208/152802.726:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 08, 2017 15:28:24.98 [9772:9900:0208/152824.989:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+
+Feb 13, 2017 13:21:13.79 NEW SESSION
+Feb 13, 2017 13:21:13.79 [4552:9300:0213/132113.778:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 13, 2017 13:21:35.81 [5400:11060:0213/132135.817:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 13, 2017 13:34:11.76 [5400:11060:0213/133411.760:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+Feb 13, 2017 14:21:09.74 [5400:11060:0213/142109.746:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+
+Feb 16, 2017 12:05:55.62 NEW SESSION
+Feb 16, 2017 12:05:55.62 [5772:12940:0216/120555.621:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 16, 2017 12:08:09.03 [6948:11724:0216/120809.034:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 16, 2017 12:09:55.66 [8284:4976:0216/120955.667:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 16, 2017 12:10:17.73 [1172:5544:0216/121017.739:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 16, 2017 12:13:29.04 [11068:7896:0216/121329.047:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 16, 2017 12:13:51.11 [13360:13036:0216/121351.119:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 16, 2017 12:15:43.41 [13744:14284:0216/121543.411:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 16, 2017 12:16:05.32 [13088:8844:0216/121605.320:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 16, 2017 12:19:05.08 [6260:8996:0216/121905.082:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 16, 2017 12:19:27.09 [8420:2860:0216/121927.097:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+
+Feb 17, 2017 12:07:08.53 NEW SESSION
+Feb 17, 2017 12:07:08.53 [7720:492:0217/120708.534:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 17, 2017 12:07:30.56 [11276:1428:0217/120730.563:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2017 12:11:33.16 [796:9656:0217/121133.165:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 17, 2017 12:13:52.04 [11464:8608:0217/121352.046:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 17, 2017 12:14:16.10 [10332:7940:0217/121416.102:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2017 12:40:26.00 [7564:8148:0217/124026.004:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 17, 2017 12:40:49.32 [1252:7756:0217/124049.320:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2017 12:43:30.78 [232:6944:0217/124330.782:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 17, 2017 12:43:52.83 [11116:6068:0217/124352.830:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2017 12:50:15.99 [11396:7884:0217/125015.992:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 17, 2017 12:50:39.30 [10216:7988:0217/125039.307:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2017 12:51:18.65 [10216:7988:0217/125118.657:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -109
+Feb 17, 2017 12:51:46.19 [10216:7988:0217/125146.196:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2017 14:04:19.05 [10216:7472:0217/140419.057:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Feb 17, 2017 14:04:23.35 [10216:7988:0217/140423.349:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+
+Feb 22, 2017 09:36:04.41 NEW SESSION
+Feb 22, 2017 09:36:04.41 [8160:8020:0222/093604.416:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 22, 2017 09:36:26.47 [3028:2084:0222/093626.478:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 22, 2017 10:15:21.52 [8160:5604:0222/101521.520:ERROR:gpu_watchdog_thread.cc(373)] The GPU process hung. Terminating after 15000 ms.
+Feb 22, 2017 10:15:21.60 [0222/101521.608:ERROR:process_info.cc(608)] range at 0x273d3fb600000000, size 0x1ca fully unreadable
+Feb 22, 2017 10:15:21.61 [0222/101521.609:ERROR:process_info.cc(608)] range at 0x273d3fd600000000, size 0x1ca fully unreadable
+Feb 22, 2017 10:15:21.62 [0222/101521.609:ERROR:process_info.cc(608)] range at 0x0, size 0x1ca fully unreadable
+Feb 22, 2017 10:15:21.81 [3028:9884:0222/101521.810:ERROR:gpu_process_transport_factory.cc(855)] Lost UI shared context.
+Feb 22, 2017 10:15:22.02 [2320:11156:0222/101522.027:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Feb 22, 2017 11:16:33.05 [3028:2084:0222/111633.056:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 22, 2017 11:37:20.10 [3028:2084:0222/113720.101:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -100
+Feb 22, 2017 11:37:40.69 [3028:2084:0222/113740.697:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Feb 22, 2017 12:36:31.29 [3028:2084:0222/123631.289:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Feb 22, 2017 13:08:17.28 [3028:2084:0222/130817.285:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+Feb 22, 2017 13:47:55.78 [3028:2084:0222/134755.785:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+
+Mar 01, 2017 12:51:52.80 NEW SESSION
+Mar 01, 2017 12:51:52.80 [14704:8472:0301/125152.800:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 01, 2017 12:52:15.26 [14724:14948:0301/125215.266:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+
+Mar 13, 2017 09:47:49.63 NEW SESSION
+Mar 13, 2017 09:47:49.63 [4884:12372:0313/094749.636:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 13, 2017 09:50:56.45 [14116:17188:0313/095056.451:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 13, 2017 09:51:40.13 [7060:17736:0313/095140.137:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 13, 2017 09:52:33.35 [18368:15740:0313/095233.350:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 13, 2017 09:52:55.47 [17360:16972:0313/095255.478:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Mar 13, 2017 10:16:18.87 [2276:7676:0313/101618.877:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 13, 2017 10:16:40.88 [17476:10188:0313/101640.885:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Mar 13, 2017 13:52:10.31 [WARNING:..\..\..\..\flash\platform\pepper\pep_module.cpp(63)] SANDBOXED
+Mar 13, 2017 14:33:09.79 [17476:10188:0313/143309.792:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+
+Mar 15, 2017 15:03:11.71 NEW SESSION
+Mar 15, 2017 15:03:11.73 [4484:6168:0315/150311.681:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 15, 2017 15:03:34.08 [15808:5096:0315/150334.085:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+
+Mar 20, 2017 10:03:42.66 NEW SESSION
+Mar 20, 2017 10:03:42.66 [20228:18084:0320/100342.664:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 20, 2017 10:04:03.62 [16140:18732:0320/100403.621:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Mar 20, 2017 10:10:01.99 [16140:18732:0320/101001.990:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 20, 2017 10:57:11.84 A Parser-blocking, cross-origin script, https://securemedia.newjobs.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.86 A Parser-blocking, cross-origin script, https://securemedia.newjobs.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.87 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.87 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.88 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.89 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.89 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.90 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.91 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.91 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.92 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.93 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.93 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 10:57:11.94 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 20, 2017 14:27:03.03 A Parser-blocking, cross-origin script, http://media.monster.com/js/sc/sitecatalystLL.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See[16140:19244:0320/142703.037:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Mar 20, 2017 14:27:06.77 [16140:18732:0320/142706.777:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -21
+Mar 20, 2017 15:15:21.41 [WARNING:..\..\..\..\flash\platform\pepper\pep_module.cpp(63)] SANDBOXED
+
+Mar 21, 2017 12:22:26.41 NEW SESSION
+Mar 21, 2017 12:22:26.41 [12708:11384:0321/122226.415:ERROR:mf_helpers.cc(12)] Error in dxva_video_decode_accelerator_win.cc on line 345
+Mar 21, 2017 12:22:48.58 [1708:10864:0321/122248.584:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+Mar 21, 2017 14:34:53.50 [1708:10864:0321/143453.499:ERROR:ssl_client_socket_impl.cc(1101)] handshake failed; returned -1, SSL error code 1, net_error -100

@@ -1,0 +1,39 @@
+package com.jhakaas.DAOIMPL;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.jhakaas.DAO.ContactusDAO;
+import com.jhakaas.model.Contactus;
+
+@Repository
+public class ContactusDaolmpl implements ContactusDAO 
+{
+	@Autowired
+	SessionFactory sessionFactory;
+
+	@Override
+	public boolean insert_Contactus(Contactus d)
+	{
+		System.out.println("w");
+		Session s=sessionFactory.openSession();
+		Transaction t=s.beginTransaction();
+		System.out.println("e");
+		Contactus u=new Contactus();
+		u.setName(d.getName());
+		u.setSubject(d.getSubject());
+		u.setDescription(d.getDescription());
+		u.setEmailid(d.getEmailid());
+		
+		s.save(d);
+		s.save(u);
+		t.commit();
+		System.out.println("l");
+		s.close();		
+		System.out.println("done");
+		return false;
+	}
+
+}

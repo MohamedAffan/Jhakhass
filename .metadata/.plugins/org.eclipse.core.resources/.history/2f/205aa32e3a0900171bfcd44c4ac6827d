@@ -1,0 +1,28 @@
+<nav class="navbar navbar-inverse" style="background-color:white">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Jhakaas<img src="" /></a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">About Us</a> 
+				</li>
+				<li><a href="#">Contact Us</a></li> 
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="signup"><span class="glyphicons glyphicons-Signup"></span>
+						Sign Up</a></li>
+				<li><a href="login"><span class="glyphicon glyphicon-log-in"></span>
+						Login</a></li>
+				<li><a href="Category"><span class=""></span>
+						Category</a></li>
+				<li><a href="seller"><span class="glyphicon glyphicon-user"></span>
+						SellerRegistrarion</a></li>
+				<li><a href="Product"><span class=""></span>
+						Product</a></li>
+				<li><a href="Cart"><span class="glyphicon glyphicon-Shopping-Cart"></span>
+						Cart</a></li>
+			</ul>
+		</div>
+	</nav>

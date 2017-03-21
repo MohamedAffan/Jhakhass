@@ -1,0 +1,77 @@
+'use strict';
+ 
+angular.module('myApp').factory('ProductService', ['$http', '$q', function($http, $q){
+ 
+    var REST_SERVICE_URI = 'http://localhost:9050/jhakaas/proddisp';
+ 
+    var factory = {
+        fetchAllProduct: fetchAllProduct,
+        createProduct: createProduct,
+        updateProduct:updateProduct,
+        deleteProduct:deleteProduct
+    };
+ 
+    return factory;
+ 
+    function fetchAllProduct() {
+        var deferred = $q.defer();
+        $http.get(REST_SERVICE_URI)
+            .then(
+            function (response) {
+                deferred.resolve(response.data);
+            },
+            function(errResponse){
+                console.error('Error while fetching Product');
+                deferred.reject(errResponse);
+            }
+        );
+        return deferred.promise;
+    }
+ 
+    function createProduct(product) {
+        var deferred = $q.defer();
+        $http.post(REST_SERVICE_URI, product)
+            .then(
+            function (response) {
+                deferred.resolve(response.data);
+            },
+            function(errResponse){
+                console.error('Error while creating Product');
+                deferred.reject(errResponse);
+            }
+        );
+        return deferred.promise;
+    }
+ 
+ 
+    function updateProduct(product, ProductId) {
+        var deferred = $q.defer();
+        $http.put(REST_SERVICE_URI+ProductId, product)
+            .then(
+            function (response) {
+                deferred.resolve(response.data);
+            },
+            function(errResponse){
+                console.error('Error while updating Product');
+                deferred.reject(errResponse);
+            }
+        );
+        return deferred.promise;
+    }
+ 
+    function deleteProduct(ProductId) {
+        var deferred = $q.defer();
+        $http.delete(REST_SERVICE_URI+ProductId)
+            .then(
+            function (response) {
+                deferred.resolve(response.data);
+            },
+            function(errResponse){
+                console.error('Error while deleting Product');
+                deferred.reject(errResponse);
+            }
+        );
+        return deferred.promise;
+    }
+ 
+}]);

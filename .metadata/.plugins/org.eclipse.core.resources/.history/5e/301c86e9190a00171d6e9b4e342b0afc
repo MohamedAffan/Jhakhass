@@ -1,0 +1,32 @@
+package com.jhakaas.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.jhakaas.DAO.ContactusDAO;
+import com.jhakaas.model.Contactus;
+
+@Controller
+public class ContactusController 
+{
+	@Autowired
+	ContactusDAO Contactusd;
+	
+	@RequestMapping("/Contactus")
+	public ModelAndView Contactus()
+	{
+		ModelAndView mv=new ModelAndView("signup","reguser",new Contactus());
+		return mv;
+	}
+
+	@RequestMapping(value="/userreg",method = RequestMethod.POST)
+	public String sinuppage(@ModelAttribute("reguser")Contactus d)
+	{
+		Contactusd.insert_Contactus(d);
+		return "Thanks for ur feedback";
+	}
+}

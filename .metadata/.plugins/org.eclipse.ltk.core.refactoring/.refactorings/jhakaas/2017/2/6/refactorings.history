@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jhakaas/src/main/webapp/WEB-INF/resources/css/sign up.css&apos; to &apos;signup.css&apos;" description="Rename resource &apos;sign up.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/resources/css/sign up.css" name="signup.css" stamp="1486629764150" updateReferences="true"/>
+</session>

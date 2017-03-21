@@ -1,0 +1,11 @@
+package com.jhakaas.DAO;
+
+import org.springframework.stereotype.Service;
+
+import com.jhakaas.model.Contactus;
+
+@Service
+public interface ContactusDAO
+{
+	public boolean insert_Contactus(Contactus d);
+}

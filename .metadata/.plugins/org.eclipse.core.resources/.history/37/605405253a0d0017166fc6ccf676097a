@@ -1,0 +1,92 @@
+'use strict';
+ 
+angular.module('myApp').controller('ProductController', ['$scope', 'ProductService', function($scope, ProductService) {
+    var self = this;
+    self.product={Productname:'',ProductDescription:'',ProductId:null,Productquantity:'',Productperunit:'',SellerId:'',}
+    self.products=[];
+    self.submit = submit;
+    self.edit = edit;
+    self.remove = remove;
+    self.reset = reset;
+ 
+ 
+    fetchAllUsers();
+ 
+    function fetchAllProduct(){
+        ProductService.fetchAllProduct()
+            .then(
+            function(d) {
+                self.Product = d;
+            },
+            function(errResponse){
+                console.error('Error while fetching Users');
+            }
+        );
+    }
+ 
+    function createProduct(Product){
+        ProductService.createProduct(Product)
+            .then(
+            fetchAllProduct,
+            function(errResponse){
+                console.error('Error while creating Product');
+            }
+        );
+    }
+ 
+    function updateProduct(Product, id){
+    	ProductService.updateProduct(Product, id)
+            .then(
+            fetchAllUsers,
+            function(errResponse){
+                console.error('Error while updating Product');
+            }
+        );
+    }
+ 
+    function deleteProduct(id){
+        ProductService.deleteProduct(id)
+            .then(
+            fetchAllProduct,
+            function(errResponse){
+                console.error('Error while deleting Product');
+            }
+        );
+    }
+ 
+    function submit() {
+        if(self.Product.id===null){
+            console.log('Saving New Product', self.Product);
+            createProduct(self.Product);
+        }else{
+            updateProduct(self.Product, self.Product.id);
+            console.log('Product updated with id ', self.Product.id);
+        }
+        reset();
+    }
+ 
+    function edit(id){
+        console.log('id to be edited', id);
+        for(var i = 0; i < self.Product.length; i++){
+            if(self.Product[i].id === id) {
+                self.Product = angular.copy(self.Product[i]);
+                break;
+            }
+        }
+    }
+ 
+    function remove(id){
+        console.log('id to be deleted', id);
+        if(self.Product.id === id) {//clean form if the user to be deleted is shown there.
+            reset();
+        }
+        deleteProduct(id);
+    }
+ 
+ 
+    function reset(){
+        self.Product={id:null,username:'',address:'',email:''};
+        $scope.myForm.$setPristine(); //reset Form
+    }
+ 
+}]);

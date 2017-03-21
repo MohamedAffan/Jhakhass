@@ -1,0 +1,138 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="resources/css/signup.css">
+
+	
+</head>
+<body style="background-color: white" ng-app="myApp" class="ng-cloak">
+	<jsp:include page="navbar.jsp" />
+	<div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<section>
+					<h1 class="entry-title">
+						<span>Product</span>
+					</h1>
+					<hr>
+					
+					<form:form action="Product" modelAttribute="addsell" class="form-horizontal"
+						method="post" name="Product" id="Product">
+
+						<div class="form-group">
+							<label class="control-label col-sm-3">Product Name <span
+								class="text-danger">*</span></label>
+							<div class="col-md-8 col-sm-9">
+								<form:input type="text" class="form-control" name="Productname"
+									 placeholder="Productname" value="" path="Productname"></form:input>
+							</div>
+						</div>
+						<%-- <div class="form-group">
+							<label class="control-label col-sm-3">Date of Birth <span
+								class="text-danger">*</span></label>
+							<div class="col-md-8 col-sm-9">
+								<form:input type="type" class="form-control" name="mem_name"
+									id="mem_name" placeholder="Date of Birth" value="" path="dob"></form:input>
+							</div>
+						</div> --%>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3">ProductDescription <span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-8">
+								<div class="input-group">
+										<form:input type="ProductDescription" class="form-control"
+										name="ProductDescription" id="ProductDescription"
+										placeholder="ProductDescription (5-15 chars)" value="" path="ProductDescription"></form:input>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3">ProductId<span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-8">
+								<div class="input-group">
+									<form:input type="text" class="form-control" name="ProductId"
+										id="ProductId" placeholder="ProductId"
+										value="" path="ProductId"></form:input>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-3">Productquantity<span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-8">
+								<div class="input-group">
+									<form:input type="text" class="form-control" name="Productquantity"
+										id="Productquantity" placeholder="Productquantity"
+										value="" path="Productquantity"></form:input>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-3">PricePerUnit<span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-8">
+								<div class="input-group">
+									<form:input type="text" class="form-control" name="PricePerUnit"
+										id="PricePerUnit" placeholder="PricePerUnit"
+										value="" path="PricePerUnit"></form:input>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-3">SellerId<span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-8">
+								<div class="input-group">
+									<form:input type="text" class="form-control" name="SellerId"
+										id="SellerId" placeholder="SellerId"
+										value="" path="SellerId"></form:input>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-3">CategoryId<span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-8">
+								<div class="input-group">
+									<form:input type="text" class="form-control" name="CategoryId"
+										id="CategoryId" placeholder="CategoryId"
+										value="" path="CategoryId"></form:input>
+								</div>
+							</div>
+						</div>
+						
+						<div class="container">&nbsp;</div>
+						  <div class="form-group" style="margin-top: 20">
+								<div class="col-xs-offset-3 col-xs-10">
+									<button name="Submit" type="submit" value="Add"
+										class="btn btn-success">Add</button>
+									<button name="Reset" type="reset" value="Reset"
+										class="btn btn-danger"> Reset
+									</button>
+								</div>
+							</div>        
+					</form:form>
+					</section>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
